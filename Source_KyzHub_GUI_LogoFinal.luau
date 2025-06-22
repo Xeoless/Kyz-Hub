@@ -1,4 +1,3 @@
--- Require Orion Lib (make sure OrionLib is in ReplicatedStorage or wherever you store it)
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 -- Create the main window with red theme colors
@@ -38,3 +37,6 @@ Tab:AddButton({
         end
     end
 })
+
+-- Initialize the UI (required at the end)
+OrionLib:Init()
